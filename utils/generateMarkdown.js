@@ -14,7 +14,47 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-`;
-}
+  ## Description
+
+  ${data.description}
+
+  ## Table of Contents
+
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+
+  ## Installation
+
+  ${data.install}
+
+  ## Usage
+
+  ${data.usage}
+
+  ## Contributing
+
+  ${data.contributors}
+
+  ## License
+
+  ${data.license}
+
+  ## Badges
+
+  ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+  ## Tests
+
+  ${data.test}
+  
+  ## Questions
+
+  If you would like to collaborate or have any questions feel free to contact me on my Github or email!
+  ![My github](https://github.com/${data.github})
+  My email: ${data.email}
+  `;
+  }
 
 module.exports = generateMarkdown;
