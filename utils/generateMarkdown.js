@@ -39,8 +39,10 @@ function generateMarkdown(data) {
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Contributing](#contributing)
   - [License](#license)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation
 
@@ -55,12 +57,10 @@ function generateMarkdown(data) {
   ${data.contributors}
 
   ## License
+  The License being used is: ${data.license}
+  If you would like to read more on this please click the badge to navigate to the license page
+  ${renderLicenseBadge(data.license)}
 
-  ${data.license}
-
-  ## Badges
-
-  ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
   ## Tests
 
