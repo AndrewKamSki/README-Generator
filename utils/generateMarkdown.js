@@ -61,7 +61,6 @@ function generateMarkdown(data) {
   If you would like to read more on this please click the badge to navigate to the license page
   ${renderLicenseBadge(data.license)}
 
-
   ## Tests
 
   ${data.test}
