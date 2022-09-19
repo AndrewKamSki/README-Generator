@@ -21,7 +21,7 @@
 
   ## Usage
 
-  ![Usage Walkthrough](./utils/Readme-video.mp4)
+  You can also see a usage walkthrough here: https://drive.google.com/file/d/1hKfLFQHX5N8fMpIBe9859e0nLoYIZC7X/view?usp=sharing
 
   This application is great for quickly creating a README file for projects with very litte time and effort from the creator. This way they can focus on the most important thing, the CODE! The great thing is, this application at least serves as a good template for the README as they can still be edited after creation
 
